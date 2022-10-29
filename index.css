@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+/* Typography */
+
+html {
+    font-size: 15px;
+    display: flex;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* Body */
+
+.content {
+    width: 50%;
+    background-color: white;
+    margin-top: 15vh;
+    margin-left: 60vh;
+    width: 250px;
+    height: 430px;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 90%;
+    border-radius: 10px;
+    margin: 0.9rem 0.9rem 0;
+}
+
+h1 {
+    text-justify: center;
+    text-align: center;
+    margin: 1rem 1.5rem;
+
+}
+
+p {
+    text-align: center;
+    text-justify: center;
+    margin: 0 0.5rem;
+}
+
